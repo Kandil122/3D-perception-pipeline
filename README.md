@@ -1,4 +1,4 @@
-# RSE 3D Perception Pipeline
+# 3D Perception Pipeline
 
 This workspace contains a ROS 2 Jazzy 3D perception pipeline developed for the SHL-1 robot. The system processes Lidar point clouds and camera images to provide fused 3D object detections and a Bird's-Eye-View (BEV) visualization.
 
@@ -41,9 +41,6 @@ ros2 bag play <your_bag_file> --clock
 
 ## Packages
 
-- **s1s2_r1_description**: Contains the URDF and meshes for the SHL-1 robot.
-- **s1s2_r1_perception**: Implements the perception nodes (Lidar clustering, Camera detection, Frustum fusion, BEV visualization).
+- **r1_description**: Contains the URDF and meshes for the SHL-1 robot.
+- **r1_perception**: Implements the perception nodes (Lidar clustering, Camera detection, Frustum fusion, BEV visualization).
 
-## License
-
-TODO: Add license.
